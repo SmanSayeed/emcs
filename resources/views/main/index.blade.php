@@ -1,17 +1,77 @@
 @extends('main.main')
 @section('content')
-  <main id="main">
+
 
 
     <!-- ======= About Section ======= -->
   <!-- ======= Hero Section ======= -->
   <section id="hero" class="d-flex justify-content-center align-items-center">
+
+
     <div class="container position-relative" data-aos="zoom-in" data-aos-delay="100">
-      <h1>Department of Computer Science and Engineering</h1>
+      <h1>Welcome to EMCS</h1>
       <h2>Comilla University</h2>
       <a href="#" class="btn-get-started">About us</a>
     </div>
   </section><!-- End Hero -->
+
+
+
+  <section class="notice">
+    <div class="container">
+        <div class="row notice">
+            <div class="col-md-3">
+                    <a href="">
+                        <i class="fa fa-user"></i>
+                        <span>Campus Life</span>
+                    </a>
+                    <p>The campus life at Comilla University is full of opportunities and activities to complement the regular academic undertakings along with various services and facilities.
+                       <a href="">   <span>| Read More</span> </a>
+
+                    </p>
+            </div>
+            <div class="col-md-3">
+                <a href="">
+                    <i class="fa fa-user"></i>
+                    <span>Admission</span>
+                </a>
+                <p>The campus life at Comilla University is full of opportunities and activities to complement the regular academic undertakings along with various services and facilities.
+
+                    <a href="">   <span>| Read More</span> </a>
+                </p>
+            </div>
+            <div class="col-md-3">
+                <a href="">
+                    <i class="fa fa-user"></i>
+                    <span>Notice</span>
+                </a>
+                <p>
+                    <ul>
+                        <li>Admission announcement</li>
+                        <li>Result published</li>
+                    </ul>
+                    <a href="">   <span>| Read More</span> </a>
+                </p>
+            </div>
+            <div class="col-md-3">
+                <a href="">
+                    <i class="fa fa-user"></i>
+                    <span>News & Events</span>
+                </a>
+                <p>
+                    <ul>
+                        <li>Admission announcement</li>
+                        <li>Result published</li>
+                    </ul>
+
+                    <a href="">   <span>| Read More</span> </a>
+                </p>
+            </div>
+        </div>
+    </div>
+  </section>
+
+
 
     <section id="about" class="about">
       <div class="container" data-aos="fade-up">
@@ -33,7 +93,7 @@
             <ul>
               <li><i class="bi bi-check-circle"></i>  The Department of Computer Science & Engineering covers key areas of computing, offering undergraduate majors the expertise essential to a burgeoning array of professional and technical careers in business, industry and government which require knowledge of computer hardware and software.
               </li>
-              <li><i class="bi bi-check-circle"></i>  Department of Computer Science and Engineering was started in the year 2009 with an intake of 20 students. It is one of the oldest departments in the institution. From its humble beginnings, the department has grown tremendously and has evolved into one of the foremost units of the University. The department presently offers one regular B. Sc. (Engineering) program, one regular M. Sc. (Engineering) program and one Executive Masters program (EMCA). </li>
+              <li><i class="bi bi-check-circle"></i>  Department of Computer Science and Engineering was started in the year 2009 with an intake of 20 students. It is one of the oldest departments in the institution. From its humble beginnings, the department has grown tremendou y and has evolved into one of the foremost units of the University. The department presently offers one regular B. Sc. (Engineering) program, one regular M. Sc. (Engineering) program and one Executive Masters program (EMCA). </li>
               <li><i class="bi bi-check-circle"></i>     The faculty strength of the department is 17, comprising of nine Assistant Professors and eight Lecturers. The department has the fortune of getting some of the best students of the country. Their academic excellence is reflected in the high placement record of the department, as well as the significant number of students gaining admissions for higher studies in prestigious institutions of international repute. The department has a long tradition of producing technically competent graduates and the alumni of the department are often high achievers, occupying prominent positions in the industry as well as the academia in Bangladesh and abroad.</li>
             </ul>
 

@@ -123,7 +123,7 @@ h1, h2, h3, h4, h5, h6 {
   background: #fff;
   transition: all 0.5s;
   z-index: 997;
-  padding: 15px 0;
+  padding: 0px 0px;
   box-shadow: 0px 0 18px rgba(55, 66, 59, 0.08);
 }
 
@@ -147,7 +147,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /**
-* Get Startet Button 
+* Get Startet Button
 */
 .get-started-btn {
   margin-left: 22px;
@@ -177,7 +177,7 @@ h1, h2, h3, h4, h5, h6 {
 # Navigation Menu
 --------------------------------------------------------------*/
 /**
-* Desktop Navigation 
+* Desktop Navigation
 */
 .navbar {
   padding: 0;
@@ -282,7 +282,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /**
-* Mobile Navigation 
+* Mobile Navigation
 */
 .mobile-nav-toggle {
   color: #37423b;
@@ -1545,3 +1545,4 @@ section {
   color: #fff;
   text-decoration: none;
 }
+

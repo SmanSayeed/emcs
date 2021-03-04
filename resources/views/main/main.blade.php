@@ -25,8 +25,12 @@
   <link href="{{asset('main')}}/assets/vendor/remixicon/remixicon.css" rel="stylesheet">
   <link href="{{asset('main')}}/assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
   <!-- Template Main CSS File -->
   <link href="{{asset('main')}}/assets/css/style.css" rel="stylesheet">
+  <link href="{{asset('main')}}/assets/css/saad_style.css" rel="stylesheet">
 
   <!-- =======================================================
   * Template Name: Mentor - v4.0.0
@@ -39,14 +43,28 @@
 <body>
 
   <!-- ======= Header ======= -->
+
+
   <header id="header" class="fixed-top">
-    <div class="container d-flex align-items-center">
 
-      <a href="index.html" class="logo me-auto"><img src="{{asset('main')}}/assets/img/logo.png" alt="" class="img-fluid"></a>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 top-header">
 
-      <p class="logo me-auto"><span style="font-size: 15px;    line-height: 4" href="index.html">Comilla University EMCS</span></p>
+                      <a href="{{route('home')}}" class="align-center" ><img src="{{asset('main')}}/assets/img/logo.png" alt="" class="img-fluid mx-auto d-block"></a>
 
-      <nav id="navbar" class="navbar order-last order-lg-0">
+
+                      <h3 class="align-center" href="index.html">Comilla University EMCS</h3>
+
+
+            </div>
+        </div>
+    </div>
+
+    <div class="bg-du">
+
+        <div class="container d-flex align-items-center">
+          <nav id="navbar" class="navbar order-last order-lg-0 mx-auto d-block">
         <ul>
           <li><a class="active" href="{{route('home')}}">Home</a></li>
           <li><a href="{{route('about')}}">About</a></li>
@@ -69,20 +87,34 @@
             </ul>
           </li>
           <li><a href="{{route('about')}}">Sitemap</a></li>
+
+          <li class="dropdown"><a href="#"><span class="btn btn-success">Student Area</span></a>
+            <ul>
+
+              <li><a href="#" >Login</a></li>
+              <li><a href="{{route('student.create')}}">Register</a> </li>
+
+            </ul>
+          </li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav>
       <!-- .navbar -->
 
-      <a href="#" class="get-started-btn">Login</a>
-      <a href="{{route('student.create')}}" class="get-started-btn">Register</a>
+
+
+     </div><!-- container -->
+
 
     </div>
-  </header><!-- End Header -->
+  </header>
+  <!-- End Header -->
 
-
-
+<div class="main-content-area">
+    <main id="main">
     @yield('content')
+</div>
+
 
   <!-- ======= Footer ======= -->
   <footer id="footer">
@@ -147,6 +179,7 @@
 
   <!-- Template Main JS File -->
   <script src="{{asset('main')}}/assets/js/main.js"></script>
+
 
 </body>
 

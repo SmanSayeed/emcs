@@ -1,0 +1,89 @@
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .main-content-area{
+        margin-top:113px;
+    }
+  }
+
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (min-width: 600px) {
+    .main-content-area{
+        margin-top:113px;
+    }
+  }
+
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 768px) {
+    .main-content-area{
+        margin-top:149px;
+    }
+  }
+
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (min-width: 992px) {
+    .main-content-area{
+        margin-top:149px;
+    }
+  }
+
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  @media only screen and (min-width: 1200px) {
+    .main-content-area{
+        margin-top:149px;
+    }
+  }
+
+.align-center {
+    text-align:center!important;
+    width: auto!important;
+    height: auto!important;
+}
+.bg-du{
+    background:#00254e!important;
+    color:#fff!important;
+}
+
+.bg-du nav ul li a{
+    background:#00254e!important;
+}
+
+.bg-du nav ul li a,i{
+
+    color:#fff!important;
+}
+
+
+.bg-du nav ul li ul {
+    background:#00254e!important;
+}
+
+.bg-du nav ul li a:hover{
+    color:orange!important;
+    font-size:1.02rem;
+    text-align:center;
+}
+
+.notice div a,p{
+    text-align:justify;
+}
+
+.notice div p a span{
+   color:orange;
+   display: block;
+}
+
+.notice div a i{
+    text-align:justify;
+    background-color: #86db9f;
+    color: #fff;
+    padding: 10px 10px 0px 10px;
+    border-radius:10px 10px 0px 0px;
+}
+.notice div a i:hover{
+    background-color: orange;
+
+}
+
+
